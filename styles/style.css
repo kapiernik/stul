@@ -51,6 +51,7 @@ a{
 }
 
 .buttonUp{
+    margin: 30px 10px;
     vertical-align: 270%;
     width: 100px;
     font-weight: bold;
