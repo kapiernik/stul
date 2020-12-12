@@ -1,0 +1,55 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: black;
+    font-family: 'Anonymous Pro', monospace;
+    font-family: 'PT Mono', monospace;
+    font-family: 'JetBrains Mono', monospace;
+    color: white;
+    padding-left: 4%;
+}
+
+.chair {
+    text-align: left;
+    font-size: 128px;
+    color: white;
+    margin-bottom: 0px;
+}
+
+.chair-under {
+    text-align: left;
+    font-size: 40px;
+    color: white;
+    margin-top: 30px;
+}
+ 
+.chair-image {
+    float: right;
+    width: 500px;
+    height: 500px;
+    margin-left: 0%;
+    padding-right: 0%;
+    padding-top: 0%;
+}
+
+.down{
+    text-align: center;
+}
+
+main{
+    margin-top: 10%;
+    margin-bottom: 30%;
+}
+.subtitle{
+    padding-top: 2%;
+    text-align:left;
+    font-weight: bold;
+    font-size: 65px;
+}
+
+p{
+    font-size: 30px;
+    padding-right: 4%;
+}
