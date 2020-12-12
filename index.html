@@ -2,12 +2,43 @@
 <head>
     <title>СТУЛ</title>
     <meta charset="UTF-8">
+    <!--CSS-->
     <link rel="stylesheet" href="styles/style.css">
+    <!--Fonts-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Anonymous
     +Pro&family=JetBrains+Mono&family
     =PT+Mono&display=swap" rel="stylesheet">
+    <!--Favicon-->
     <link rel="shortcut icon" href="files/favicon/favicon.ico">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript">
+ 
+      $(function() {
+       
+      $(window).scroll(function() {
+       
+      if($(this).scrollTop() != 0) {
+       
+      $('#toTop').fadeIn();
+       
+      } else {
+       
+      $('#toTop').fadeOut();
+       
+      }
+       
+      });
+       
+      $('#toTop').click(function() {
+       
+      $('body,html').animate({scrollTop:0},800);
+       
+      });
+       
+      });
+       
+      </script>
 </head>
 <body>
     <header id="head">
@@ -17,6 +48,7 @@
     </header>
     <nav>
       <a href="#main"><img class="down" src="files/down.png" alt="down"></a>
+      <a href="#subtitle-end" class="buttonUp">Купить билет</a>
     </nav>
     <main id="main">
       <h2 class="subtitle">Стул стал неотъемлемой частью нашей жизни</h2>
@@ -44,10 +76,11 @@
       <!--Почему этот монолог-ахуенен?-->
       <p>
         <ul class="spisok">
-          <li>Подумаете над справедливостью судебной системы</li>
-          <li>Удивитесь тому, насколько давно стул был изобретён</li>
-          <li>Узнаете о "людях-вояджерах", и почему им надо помочь</li>
-          <li>Задумаетесь о том, насколько ужасными могут быть люди</li>
+          <li>Подумаем над справедливостью судебной системы</li>
+          <li>Удивимся тому, насколько давно стул был изобретён</li>
+          <li>Заговорим о суициде и почему людям, 
+            которые хотят его совершить, надо помочь</li>
+          <li>Задумаемся о том, насколько ужасными могут быть люди</li>
         </ul>
       </p>
       <h2 class="subtitle">Где и когда будет сие действие?</h2>
@@ -66,6 +99,20 @@
       <p class="subtitle-p">ВРЕМЯ:
       <p>20:30</p>
       </p>
+      <h2 id="subtitle-end">
+        Приходите на монолог
+      </h2>
+      <p class="underline end">
+          И посмотрите на мир под другим углом!
+      </p>
+      <p class="buttonDown">
+      <a href="https://forms.gle/e3gWvJ5uEfey799V8" class="button">
+      Купить билет
+      </a>
+      </p>
     </main>
+    <a href="#head" title="Вернуться к началу" id="toTop">
+      <img src="files/up.png" alt="up">
+    </a>
 </body>
 </html>
