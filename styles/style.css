@@ -18,6 +18,10 @@ body {
     margin-bottom: 0px;
 }
 
+a{
+    text-decoration-line: none;
+}
+
 .chair-under {
     text-align: left;
     font-size: 40px;
