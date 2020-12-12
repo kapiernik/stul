@@ -11,11 +11,28 @@ body {
     padding-left: 4%;
 }
 
+@-webkit-keyframes fadeIn{
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn{
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
 .chair {
     text-align: left;
     font-size: 128px;
     color: white;
-    margin-bottom: 0px;
 }
 
 a{
@@ -30,6 +47,10 @@ a{
 }
  
 .chair-image {
+    -webkit-animation-name: fadeIn;
+    -webkit-animation-duration: 5s;
+    animation-name: fadeIn;
+    animation-duration: 5s;
     float: right;
     width: 500px;
     height: 500px;
@@ -54,7 +75,25 @@ main{
     font-size: 65px;
 }
 
+.subtitle-p{
+    padding-top: 2%;
+    text-align:left;
+    font-weight: bold;
+    font-size: 45px;
+}
+
+.underline{
+    text-decoration-line: underline;
+    text-decoration-color: red;
+    -moz-text-decoration-line: underline;
+    -moz-text-decoration-color: red;
+}
+
 p{
     font-size: 30px;
     padding-right: 4%;
+}
+
+.spisok{
+    font-size: 30px;
 }
