@@ -1,3 +1,5 @@
+* { padding: 0; margin: 0; }
+
 html{
     scroll-behavior: smooth;
 }
@@ -8,7 +10,7 @@ body {
     font-family: 'PT Mono', monospace;
     font-family: 'JetBrains Mono', monospace;
     color: white;
-    padding-left: 4%;
+    padding:0% 4% 0% 4%;
 }
 
 @-webkit-keyframes fadeIn{
@@ -31,7 +33,7 @@ body {
 
 
 header{
-    margin-top: 0%;
+    margin-top: 5%;
     padding-top: 0%;
 }
 
@@ -52,9 +54,10 @@ a{
 
 .buttonUp{
     margin-left: 50px;
-    vertical-align: 270%;
+    vertical-align: 150%;
     width: 100px;
     font-weight: bold;
+    font-size: 25px;
     background-color: black;
     color: white;
     padding: 15px 70px;
@@ -130,6 +133,7 @@ main{
 p{
     font-size: 30px;
     padding-right: 4%;
+    margin-top: 2%;
 }
 
 .end{
@@ -180,4 +184,11 @@ p{
     margin-top: 10%;
     text-align: center;
     padding-right: 0;
+}
+
+footer{
+    text-align: left;
+    border: 1px solid white;
+    padding: 50px 50px;
+    margin-top: 0%;
 }
