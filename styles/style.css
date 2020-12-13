@@ -53,6 +53,7 @@ a{
 }
 
 .buttonUp{
+    margin-top: 2%;
     margin-left: 50px;
     vertical-align: 150%;
     width: 100px;
@@ -142,6 +143,7 @@ p{
 }
 
 .spisok{
+    margin-left: 4%;
     font-size: 30px;
 }
 
